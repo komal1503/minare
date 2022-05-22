@@ -1,5 +1,5 @@
 # Educare
-https://master--educaretech.netlify.app/
+https://minare.netlify.app/
 
 ## PROJECT IDEA
 
