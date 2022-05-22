@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>Minare</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/pages/SpeechText.css">
+  
+  </head>
+  <body>
+
+    <header>
+      <img class="logo" src="/assets/logo_transparent.png" alt="">
+   <nav>
+      <ul class="nav_links">
+          <li><a class="active" href="/index.html">Home</a></li>
+          <li><a href="/pages/pomodoro.html">Pomodoro</a></li>
+          <li><a href="/pages/melody.html">Melody</a></li>
+          <li><a href="/pages/Flashcard.html">Flashcards</a></li>
+          <li><a href="/pages/calc.html">Calculator</a></li>
+         
+      </ul>
+  </nav>
+    
+   
+      <div class="dropdown"> 
+          <button class="dropdown-button">Special</button> 
+          <div class="dropdown-list"> 
+              <a href="/pages/speechText.html">Speech to text</a> 
+              <a href="/pages/TextSpeech.html">Text to speech</a> 
+             
+          </div> 
+      </div>  
+      
+
+      <a class="cta" href="/pages/login.html"><button>login</button></a>
+</header>
+
+    
+    <div class="centre">
+    <div class="container">
+      <br>
+      <h1 class="text-center">
+        Voice Notepad
+      </h1>
+      <br>
+      <span id="instructions"></span>
+      <div class="form-group">
+      <textarea class="form-control" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+      <button id="start" class="btn btn-primary btn-block">
+        Start Recording
+      </button>
+      <button id="load" class="btn btn-success btn-block">
+        Load File
+      </button>
+      <button id="saveas" class="btn btn-warning btn-block">
+        Save to File
+      </button>
+      <button id="clear" class="btn btn-danger btn-block">
+        Clear Text
+      </button>
+    </div>
+</div>
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="SpeechText.js"></script>
+</html>
