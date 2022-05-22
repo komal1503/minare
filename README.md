@@ -1,6 +1,13 @@
 # Educare
 https://minare.netlify.app/
 
+
+![2022-05-22 (7)](https://user-images.githubusercontent.com/76110970/169710317-cbe47738-481c-4f31-8dce-a204dd0113e0.png)
+
+## Presentation
+
+https://youtu.be/TTl7aTpWWQU
+
 ## PROJECT IDEA
 
 My project track is "Education" . It is a
@@ -45,5 +52,21 @@ has feature of text to speech and speech to text for them too.
 ## TECH STACKS
 
 HTML,CSS,JavaScript and APIs
+
+## Challenges we ran into
+In merging of the APIS in the website and in Deployment .
+
+
+## Accomplishments that we're proud of
+I have completed this project all by myself and able to reach my goal.
+## What we learned
+About some new APIs and features.
+
+## What's next for Minare
+
+I am planning to add a novel or magazine page as reading is a good habit to improve your understanding and will affect your over all development. 
+
+I am also thing to add a blog page too so that the students who benefitted from this website will about  their experience and motivate others
+
 
 
